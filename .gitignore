@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Vite temporary files
+*.mjs
+vite.config.ts.timestamp-*
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
