@@ -10,4 +10,8 @@ export default defineConfig({
     },
   },
   base: '/nahida-gallery/',
+  server: {
+    port: 5174,
+    host: true,
+  },
 });

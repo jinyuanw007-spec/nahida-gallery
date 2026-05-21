@@ -1,5 +1,5 @@
-import { Hero } from '../components/home/Hero'
-import { AboutContent } from '../components/about/AboutContent'
+import { Hero } from '../components/home/Hero';
+import { AboutContent } from '../components/about/AboutContent';
 
 export const HomePage = () => {
   return (
@@ -7,5 +7,5 @@ export const HomePage = () => {
       <Hero />
       <AboutContent />
     </>
-  )
-}
+  );
+};
